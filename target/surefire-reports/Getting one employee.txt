@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: Getting one employee
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.565 s <<< FAILURE! - in Getting one employee
+Getting one employee.Getting one employee  Time elapsed: 8.565 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "JWT is generated" is undefined. You can implement it using the snippet(s) below:
+
+@Given("JWT is generated")
+public void jwt_is_generated() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given("request is prepared to retrieve employee {string} is {string}")
+public void request_is_prepared_to_retrieve_employee_is(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("a Get call made to retrieve employee")
+public void a_get_call_made_to_retrieve_employee() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("print get employee")
+public void print_get_employee() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

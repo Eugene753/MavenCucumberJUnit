@@ -20,6 +20,7 @@ import java.util.concurrent.TimeUnit;
 public class CommonMethods {
 
     //public static WebDriver driver;
+
     public static ThreadLocal<WebDriver> webdriver = new ThreadLocal<WebDriver>();
 
     public static void setUp(){

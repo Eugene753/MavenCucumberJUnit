@@ -12,6 +12,8 @@ import java.util.List;
 
 public class DashboardSteps extends CommonMethods {
 
+
+
     @Then("verify the following tabs on dashboard")
     public void verify_the_following_tabs_on_dashboard(DataTable dataTable) {
         List<String> expectedtabs=dataTable.asList();

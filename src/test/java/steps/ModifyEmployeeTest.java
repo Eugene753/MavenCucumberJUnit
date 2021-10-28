@@ -12,6 +12,7 @@ import java.util.List;
 
 public class ModifyEmployeeTest extends CommonMethods {
 
+
     @When("user enter employee first name {string}")
     public void user_enter_employee_first_name(String employeeName) throws InterruptedException {
         EmployeeListPage employeeListPage = new EmployeeListPage();
@@ -88,7 +89,9 @@ public class ModifyEmployeeTest extends CommonMethods {
         EmployeeListPage employeeListPage=new EmployeeListPage();
         String actualText=employeeListPage.employeeName.getText();
         String expectedText="Eugene Mari Yarema";
+
         Assert.assertEquals("Values do not match",actualText,expectedText);
+
         System.out.println("Test Passed");
 
     }

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Employee Search
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.208 s - in Employee Search
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 50.716 s - in Employee Search

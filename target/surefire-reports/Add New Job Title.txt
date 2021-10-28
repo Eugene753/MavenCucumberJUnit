@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Add New Job Title
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.898 s - in Add New Job Title
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.802 s - in Add New Job Title

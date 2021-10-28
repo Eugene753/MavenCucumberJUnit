@@ -8,6 +8,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.poi.poifs.filesystem.Entry;
+import org.junit.Assert;
 import utils.apiConstants;
 
 import java.util.Collections;
@@ -39,5 +40,7 @@ public class APIGetOneEmployee {
         Map<String,Object> mapOfEmployee=response.body().as(Map.class);
 
         System.out.println(mapOfEmployee.get("emp_firstname"));
+
+
     }
 }
